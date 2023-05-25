@@ -1,0 +1,17 @@
+<input class="flex flex-wrap justify-content-center bg-blue-100 rounded shadow-sm">
+<div>Job Title: {{job_title}}</div>
+<input id="job-title"></input>
+<div>Job Description: {{job_description}}</div>
+<input id="job-description"></input>
+<div>Job Location: {{job_location}}</div>
+<input id="job-date"></input>
+<div>Hourly Wage: {{hourly_wage}}</div>
+<input id="hourly-wage"></input>
+<div>Job Duration: {{job_duration}}</div>
+<input id="job-duration"></input>
+{{#if loggedIn}}
+{{!-- <div>Phone Number: {{phone_number}}</div>
+<input id="job-title"></input> --}}
+{{/if}}
+</section>
+<script src="/js/jobicon.js"></script>
